@@ -2,16 +2,38 @@
 	position: fixed;
 	width: 100%;
 	z-index: 10;
-
-	&__inner {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		padding: 0 20px;
-		height: 100px;
-		width: 100%;
-		background-color: $header-color;
-	}
+}
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 51px;
+	padding-bottom: 44px;
+}
+.logo {
+	cursor: pointer;
+}
+.nav {
+	font-size: 15px;
+}
+.nav__list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 0 45px;
+}
+.nav__item {
+}
+.nav__link {
+}
+.action {
+	display: flex;
+}
+.action__phone {
+	font-size: 15px;
+}
+.cart {
+	padding-left: 47px;
 }
 
 .burger {
