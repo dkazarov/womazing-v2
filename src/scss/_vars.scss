@@ -1,15 +1,18 @@
-$main-font: 'Inter';
+$main-font: 'Raleway';
 
-$accent-color: #5dbd6d;
-$action-color: #fd576c;
+$accent-color: #6e9c9f;
+$action-color: #509498;
+
+$overlay--light: rgba(110, 156, 159, 0.65);
+$overlay--dark: rgba(110, 156, 159, 0.95);
 
 $header-color: Lavender;
-$footer-color: Lavender;
+$footer-color: #f1eadc;
 
-$main-text-color: #151519;
-$second-text-color: grey;
+$main-text-color: #000;
+$second-text-color: #808080;
 
-$main-bg-color: #f9fafc;
+$main-bg-color: #f1eadc;
 $second-bg-color: orange;
 
 $burger-line-color: black;
