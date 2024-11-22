@@ -1,17 +1,20 @@
 .header {
 	position: fixed;
 	width: 100%;
-	z-index: 10;
+	z-index: 1;
 }
 .header__inner {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-top: 51px;
+	padding-top: 53px;
 	padding-bottom: 44px;
 }
 .logo {
 	cursor: pointer;
+}
+.header__nav {
+	margin-right: 57px;
 }
 .nav {
 	font-size: 15px;
@@ -31,9 +34,10 @@
 }
 .action__phone {
 	font-size: 15px;
+	letter-spacing: 0.021em;
 }
 .cart {
-	padding-left: 47px;
+	padding-left: 65px;
 }
 
 .burger {
