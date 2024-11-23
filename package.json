@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "gulp + type script + webpack",
 	"main": "index.js",
-	"homepage": "https://dkazarov.github.io/___________.git",
+	"homepage": "https://github.com/dkazarov/womazing-v2.git",
 	"scripts": {
 		"deploy": "gh-pages -d dist"
 	},
