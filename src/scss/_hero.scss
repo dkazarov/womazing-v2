@@ -1,3 +1,88 @@
 .hero {
 	padding-top: 122px;
 }
+.hero__inner {
+	display: flex;
+	justify-content: space-between;
+}
+.hero-slider__left-inner {
+	text-align: right;
+	padding-top: 145px;
+}
+.hero-slider__left {
+	max-width: 580px;
+	overflow: hidden;
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.hero__title {
+	margin-top: 0;
+	font-size: 55px;
+	line-height: 110%;
+	letter-spacing: 0.021em;
+	text-align: left;
+	margin-bottom: 45px;
+}
+.hero__text {
+	font-weight: 400;
+	font-size: 20px;
+	text-align: right;
+	margin-bottom: 45px;
+	max-width: 385px;
+}
+.hero__btn {
+	position: relative;
+	margin-right: 200px;
+	transition: all 0.2s ease-in-out;
+
+	&:hover {
+		background-color: $action-color;
+		transition: all 0.2s ease-in-out;
+	}
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: -67px;
+		width: 67px;
+		height: 64px;
+		background-color: rgba(110, 156, 159, 0.1);
+		background-image: url(../assets/hero-btn-arrow.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+.btn--full {
+	padding: 22px 54px;
+	background-color: $accent-color;
+	color: $white;
+}
+
+.hero-slider__right {
+	overflow: hidden;
+}
+.hero__img {
+	margin-left: auto;
+}
+.hero__img--top {
+}
+.hero__img--bottom {
+}
+.hero__pagination {
+	text-align: centers;
+	margin: 0 auto;
+	padding-top: 112px;
+	padding-right: 100px;
+}
+.swiper-pagination-bullet {
+	width: 30px;
+	height: 4px;
+	border-radius: 0;
+	background: #6d5a5a;
+}
+.swiper-pagination-bullet-active {
+	background-color: #000;
+}
