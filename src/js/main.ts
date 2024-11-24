@@ -9,11 +9,9 @@ const heroSliderLeft = () => {
 
 		loop: true,
 
-		// autoplay: {
-		// 	delay: 2000,
-		// },
-
-		// slidesPerView: 0,
+		autoplay: {
+			delay: 5000,
+		},
 
 		pagination: {
 			el: '.hero__pagination',
@@ -28,11 +26,9 @@ const heroSliderRight = () => {
 
 		loop: true,
 
-		// autoplay: {
-		// 	delay: 2000,
-		// },
-
-		// slidesPerView: 0,
+		autoplay: {
+			delay: 5000,
+		},
 
 		pagination: {
 			el: '.hero__pagination',

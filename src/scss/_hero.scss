@@ -1,5 +1,6 @@
 .hero {
 	padding-top: 122px;
+	margin-bottom: 130px;
 }
 .hero__inner {
 	position: relative;
@@ -58,7 +59,14 @@
 .hero-slider__right {
 	overflow: hidden;
 }
+.hero-slide__inner {
+	width: 410px;
+	height: 646px;
+}
 .hero__img {
+	width: 80%;
+	height: 100%;
+	object-fit: cover;
 	margin-left: auto;
 }
 .hero__img--bottom {
