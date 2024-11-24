@@ -13,6 +13,8 @@ const heroSliderLeft = () => {
 		// 	delay: 2000,
 		// },
 
+		// slidesPerView: 0,
+
 		pagination: {
 			el: '.hero__pagination',
 			clickable: true,
@@ -29,6 +31,8 @@ const heroSliderRight = () => {
 		// autoplay: {
 		// 	delay: 2000,
 		// },
+
+		// slidesPerView: 0,
 
 		pagination: {
 			el: '.hero__pagination',

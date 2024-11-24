@@ -9,3 +9,10 @@
 body.no-scroll {
 	overflow: hidden;
 }
+
+//Btn
+.btn--full {
+	padding: 24px 49px;
+	background-color: $accent-color;
+	color: $white;
+}
