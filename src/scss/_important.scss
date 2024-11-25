@@ -5,24 +5,22 @@
 	margin-bottom: 92px;
 }
 .important__inner {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 	gap: 0 30px;
-}
-.title--main {
 }
 .important__card {
 	max-width: 310px;
+	margin-bottom: 30px;
 }
 .important__img {
 	margin-bottom: 43px;
-  line-height: 0.021em;
+	line-height: 0.021em;
 }
 .important-card__title {
 	font-weight: 500;
 	font-size: 25px;
 	text-align: left;
 	margin-bottom: 30px;
-}
-.important__text {
 }
