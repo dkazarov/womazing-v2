@@ -1,0 +1,77 @@
+.new-coll {
+	margin-bottom: 130px;
+}
+.new-coll-main__title {
+	margin-bottom: 92px;
+	text-align: left;
+}
+.title--main {
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 110%;
+	letter-spacing: 0.02em;
+}
+.new-coll__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 65px;
+}
+.card {
+}
+.card__inner {
+}
+.card-img__inner {
+	position: relative;
+	width: 350px;
+	height: 478px;
+	margin-bottom: 24px;
+	transition: all 0.2s ease-in-out;
+
+	&:hover::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: $overlay--light;
+		transition: all 0.2s ease-in-out;
+	}
+}
+.card__img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.card__title {
+	text-align: center;
+	margin-bottom: 7px;
+}
+.title--second {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 140%;
+	letter-spacing: 0.02em;
+}
+.card__price {
+	text-align: center;
+	color: $gold;
+	font-size: 15px;
+	letter-spacing: 0.02em;
+}
+.card__price span {
+	color: $grey;
+	margin-right: 10px;
+	font-size: 15px;
+	letter-spacing: 0.02em;
+	text-decoration: line-through;
+}
+.new-coll__btn-inner {
+	margin: 0 auto;
+	text-align: center;
+}
+.new-coll__btn {
+}
+.btn--transparent {
+}

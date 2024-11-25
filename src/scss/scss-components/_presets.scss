@@ -15,4 +15,28 @@ body.no-scroll {
 	padding: 24px 49px;
 	background-color: $accent-color;
 	color: $white;
+	transition: all 0.2s ease-in-out;
+
+	&:hover {
+		background-color: $action-color;
+	}
+}
+
+.btn--transparent {
+	display: inline-block;
+	border: 1px solid #6e9c9f;
+	padding: 22px 50px;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 139%;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: $accent-color;
+	transition: all 0.2s ease-in-out;
+
+	&:hover {
+		background-color: $action-color;
+		transition: all 0.2s ease-in-out;
+		color: $white;
+	}
 }

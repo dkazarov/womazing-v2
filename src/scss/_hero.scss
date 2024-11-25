@@ -36,11 +36,6 @@
 	margin-right: 185px;
 	transition: all 0.2s ease-in-out;
 
-	&:hover {
-		background-color: $action-color;
-		transition: all 0.2s ease-in-out;
-	}
-
 	&::before {
 		content: '';
 		position: absolute;
