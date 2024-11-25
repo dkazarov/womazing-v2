@@ -31,23 +31,24 @@
 	line-height: 140%;
 	margin-bottom: 74px;
 }
+
 .hero__btn {
-	position: relative;
+	position: relative !important;
 	margin-right: 185px;
 	transition: all 0.2s ease-in-out;
+}
 
-	&::before {
-		content: '';
-		position: absolute;
-		top: 0;
-		left: -67px;
-		width: 67px;
-		height: 64px;
-		background-color: rgba(110, 156, 159, 0.1);
-		background-image: url(../assets/hero-btn-arrow.svg);
-		background-repeat: no-repeat;
-		background-position: center;
-	}
+.hero__btn--arrow {
+	position: absolute;
+	top: -24px;
+	left: 75px;
+	width: 68px;
+	height: 68px;
+	background-color: rgba(110, 156, 159, 0.1);
+	background-image: url(../assets/hero-btn-arrow.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 100;
 }
 
 // Right slider

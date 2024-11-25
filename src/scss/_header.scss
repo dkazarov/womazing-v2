@@ -40,6 +40,8 @@
 	align-items: center;
 	gap: 0 45px;
 	font-weight: 600;
+	overflow: auto;
+	padding: 1px;
 }
 .nav__link {
 	transition: all 0.2s ease-in-out;
