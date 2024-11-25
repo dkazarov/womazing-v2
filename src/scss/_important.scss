@@ -1,0 +1,26 @@
+.important {
+	margin-bottom: 130px;
+}
+.important__title {
+	margin-bottom: 92px;
+}
+.important__inner {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 0 75px;
+}
+.title--main {
+}
+.important__card {
+}
+.important__img {
+  margin-bottom: 37px;
+}
+.important-card__title {
+	font-weight: 500;
+	font-size: 25px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.important__text {
+}
