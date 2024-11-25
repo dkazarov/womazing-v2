@@ -1,6 +1,7 @@
 @media (max-width: 991px) {
 	.hero {
 		padding-top: 65px;
+		margin-bottom: -50px;
 	}
 	.hero-slider__left-inner {
 		padding-top: 15px;
@@ -18,6 +19,9 @@
 }
 
 @media (max-width: 915px) {
+	.hero {
+		margin-bottom: -75px;
+	}
 	.hero-slider__left-inner {
 		text-align: center;
 	}

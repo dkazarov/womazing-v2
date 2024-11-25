@@ -5,22 +5,16 @@
 	margin-bottom: 92px;
 	text-align: left;
 }
-.title--main {
-	font-weight: 500;
-	font-size: 40px;
-	line-height: 110%;
-	letter-spacing: 0.02em;
-}
 .new-coll__inner {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 0 30px;
 	margin-bottom: 64px;
 }
 .card-img__inner {
 	position: relative;
-	width: 350px;
-	height: 478px;
+	max-width: 350px;
+	max-height: 478px;
 	margin-bottom: 24px;
 	transition: all 0.2s ease-in-out;
 
@@ -44,12 +38,6 @@
 	text-align: center;
 	margin-bottom: 7px;
 }
-.title--second {
-	font-weight: 500;
-	font-size: 20px;
-	line-height: 140%;
-	letter-spacing: 0.02em;
-}
 .card__price--old {
 	color: $grey;
 	margin-right: 10px;
@@ -63,10 +51,7 @@
 	font-size: 15px;
 	letter-spacing: 0.02em;
 }
-
-.card__price span {
-}
 .new-coll__btn-inner {
-	margin: 0 auto;
+	width: 100%;
 	text-align: center;
 }

@@ -1,0 +1,60 @@
+@media (max-width: 767px) {
+	.new-coll__inner {
+		margin-bottom: 40px;
+	}
+	.new-coll-main__title {
+		font-size: 14px;
+		margin-bottom: 36px;
+		text-align: center;
+	}
+	.new-coll__inner {
+		flex-wrap: wrap;
+	}
+	.card__price {
+		font-size: 14px;
+	}
+	.new-coll__btn.btn--transparent {
+		padding: 12px;
+	}
+}
+
+@media (max-width: 575px) {
+	.new-coll-main__title {
+		margin-bottom: 26px;
+		text-align: center;
+	}
+	.new-coll__inner {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		margin-bottom: 34px;
+	}
+	.card {
+		&:last-child {
+			display: none;
+		}
+	}
+}
+
+@media (max-width: 470px) {
+	.new-coll-main__title {
+		font-size: 24px;
+		margin-bottom: 26px;
+		text-align: center;
+	}
+	.new-coll__inner {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		justify-items: center;
+		margin-bottom: 24px;
+	}
+	.card {
+		margin-bottom: 10px;
+
+		&:last-child {
+			display: block;
+		}
+	}
+	.card-img__inner {
+		margin-bottom: 10px;
+	}
+}
