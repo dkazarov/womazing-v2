@@ -46,7 +46,7 @@ export const teamSlider = () => {
 		},
 
 		pagination: {
-			el: '.hero__pagination',
+			el: '.team__pagination',
 			clickable: true,
 		},
 
