@@ -2,22 +2,24 @@
 	margin-bottom: 130px;
 }
 .important__title {
-	margin-bottom: 92px;
+	margin-bottom: 88px;
 }
 .important__inner {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	gap: 0 30px;
 }
 .important__card {
-	max-width: 310px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
+	width: 350px;
 }
 .important__img {
-	margin-bottom: 43px;
+	margin-bottom: 40px;
 	line-height: 0.021em;
 }
 .important-card__title {
-	margin-bottom: 30px;
+	margin-bottom: 25px;
+}
+.important__text {
+	max-width: 310px;
 }

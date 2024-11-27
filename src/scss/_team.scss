@@ -8,7 +8,6 @@
 	position: relative;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 }
 .team__slider {
 	max-width: 729px;
@@ -28,44 +27,47 @@
 	max-width: 255px;
 	max-height: 279px;
 	margin-left: auto;
+	padding-top: 76px;
 }
 .team__content-title {
 	margin-bottom: 30px;
 }
 .team__content-text span {
 	display: inline-block;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 }
 .team__content-text {
+	margin-bottom: 25px;
+}
+.team__link-about-page {
+	color: $accent-color;
 }
 .team-button-prev {
 	position: absolute;
-	left: -50px;
-	top: 50%;
+	left: -60px;
+	top: 47.1%;
 	transform: translateY(-50%);
 	width: 29px;
 	height: 16px;
 	background-image: url(./assets/team-arrow-prev.svg);
 	z-index: 10;
+	cursor: pointer;
 }
 .team__arrow-next {
 	position: absolute;
-	right: 300px;
-	top: 50%;
+	right: 320px;
+	top: 47.1%;
 	transform: translateY(-50%);
 	width: 29px;
 	height: 16px;
 	background-image: url(./assets/team-arrow-next.svg);
 	z-index: 10;
+	cursor: pointer;
 }
-// .team__pagination-inner {
-// 	position: relative;
-// 	width: 100%;
-// }
 .team__pagination {
 	position: absolute;
-	left: 300px !important;
-	bottom: -10% !important;
+	left: 310px !important;
+	bottom: -20px !important;
 	width: 100px;
 	height: 100px;
 	z-index: 100;
