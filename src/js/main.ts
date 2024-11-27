@@ -1,8 +1,10 @@
 import { burgerOpen, burgerClose } from './js-components/burger';
-import { heroSliderLeft, heroSliderRight } from './js-components/heroSlider';
+import { heroSliderLeft, heroSliderRight, teamSlider } from './js-components/sliders';
 
 burgerOpen();
 burgerClose();
 
 heroSliderLeft();
 heroSliderRight();
+
+teamSlider();
