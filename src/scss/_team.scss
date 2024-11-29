@@ -13,6 +13,7 @@
 .team__inner {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .team__slider {
 	max-width: 729px;

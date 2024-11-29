@@ -7,6 +7,7 @@
 @import 'hero';
 @import 'new-coll';
 @import 'important';
+@import 'team';
 @import 'footer';
 
 //Vendor
@@ -21,3 +22,7 @@
 //Media
 
 @import './media/media_header';
+@import './media/media_hero';
+@import './media/media_new-coll';
+@import './media/media_important';
+@import './media/media_team';

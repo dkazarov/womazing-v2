@@ -1,4 +1,4 @@
-@media (max-width: 1079px) {
+@media (max-width: 1024px) {
 	.important__title {
 		text-align: center;
 		margin-bottom: 60px;
@@ -19,5 +19,11 @@
 @media (max-width: 767px) {
 	.important__card {
 		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 576px) {
+	.important {
+		margin-bottom: 10%;
 	}
 }
