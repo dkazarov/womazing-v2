@@ -4,10 +4,8 @@
 .team__title {
 	margin-bottom: 92px;
 }
-.team__pagination-inner {
-	position: relative !important;
-}
 .team__inner {
+	position: relative;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
