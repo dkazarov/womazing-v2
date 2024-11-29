@@ -65,7 +65,7 @@
 
 @media (max-width: 767px) {
 	.hero {
-		margin-bottom: 15%;
+		margin-bottom: 10%;
 	}
 	.hero-slider__right {
 		display: none;
@@ -78,6 +78,9 @@
 	}
 	.hero__pagination {
 		display: none;
+	}
+	.hero__btn-link.btn--full {
+		padding: 12px;
 	}
 }
 
