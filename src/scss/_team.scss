@@ -1,11 +1,16 @@
 .team {
 	margin-bottom: 130px;
 }
+// .container {
+
+// }
 .team__title {
 	margin-bottom: 92px;
 }
+.team__pagination-inner {
+	position: relative !important;
+}
 .team__inner {
-	position: relative;
 	display: flex;
 	justify-content: space-between;
 }
@@ -66,9 +71,7 @@
 }
 .team__pagination {
 	position: absolute;
-	left: 310px !important;
-	bottom: -20px !important;
-	width: 100px;
-	height: 100px;
+	bottom: 57px !important;
+	left: 308px !important;
 	z-index: 100;
 }
