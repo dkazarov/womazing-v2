@@ -1,0 +1,33 @@
+@media (width < 992px) {
+	.footer__inner {
+		padding: 5% 0;
+	}
+	.action__phone.footer__phone {
+		display: block;
+	}
+	.footer__action {
+		margin-left: 0;
+	}
+	.social {
+		margin-left: 0;
+	}
+}
+
+@media (width < 786px) {
+	.footer__logo {
+		display: none;
+	}
+}
+
+@media (width < 585px) {
+	.footer__nav {
+		margin-right: auto;
+	}
+	.footer__list {
+		flex-direction: column;
+	}
+	.footer__item {
+	}
+	.footer__link {
+	}
+}
