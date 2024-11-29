@@ -1,8 +1,82 @@
 .footer {
-	&__inner {
-		height: 100px;
-		width: 100%;
-		background-color: $footer-color;
-		padding-top: 40px;
+	background-color: $main-bg-color;
+}
+.footer__inner {
+	padding-top: 100px;
+	padding-bottom: 97px;
+}
+.footer__top {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 39px;
+}
+.logo {
+}
+.nav {
+}
+.header__nav {
+}
+.nav__list {
+}
+.nav__item {
+}
+.nav__link {
+}
+.footer__action {
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+}
+.footer__phone {
+	&::before {
+		display: none;
 	}
+}
+.footer__mail {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 140%;
+	letter-spacing: 0.02em;
+}
+.footer__bottom {
+	display: flex;
+	justify-content: space-between;
+	font-weight: 400;
+	font-size: 13px;
+
+	line-height: 140%;
+	letter-spacing: 0.02em;
+}
+.footer__bottom-left {
+	max-width: 204px;
+	margin-bottom: 6px;
+}
+.copiright {
+}
+.private {
+}
+.ofert {
+}
+.social {
+}
+.social-items {
+}
+.social-item {
+	display: flex;
+	gap: 0 12px;
+	margin-bottom: 31px;
+}
+.social-link {
+}
+.social-icon {
+}
+.focial-icon {
+}
+.visa {
+	text-align: right;
+}
+.visa__link {
+	display: inline-block;
+}
+.visa__img {
 }
