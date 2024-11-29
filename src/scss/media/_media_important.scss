@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+@media (max-width: 1080px) {
 	.important__title {
 		text-align: center;
 		margin-bottom: 60px;
@@ -14,9 +14,16 @@
 		margin: 0 auto;
 		text-align: center;
 	}
+	.important__text {
+		display: inline-block;
+		text-align: center;
+	}
 }
 
 @media (max-width: 767px) {
+	.important__inner {
+		margin: 0 auto;
+	}
 	.important__card {
 		margin-bottom: 30px;
 	}
