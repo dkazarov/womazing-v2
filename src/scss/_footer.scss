@@ -2,15 +2,13 @@
 	background-color: $main-bg-color;
 }
 .footer__inner {
-	padding-top: 100px;
+	padding-top: 97px;
 	padding-bottom: 97px;
 }
 .footer__top {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 39px;
-}
-.logo {
 }
 .nav {
 }
@@ -26,11 +24,15 @@
 	display: flex;
 	flex-direction: column;
 	text-align: right;
+	margin-left: 66px;
+	padding-top: 5px;
+	letter-spacing: 0.021em;
 }
 .footer__phone {
 	&::before {
 		display: none;
 	}
+	margin-bottom: 5px;
 }
 .footer__mail {
 	font-weight: 400;
@@ -49,28 +51,44 @@
 }
 .footer__bottom-left {
 	max-width: 204px;
-	margin-bottom: 6px;
+	padding-top: 12px;
+	line-height: 140%;
 }
 .copiright {
+	margin-top: -10px;
+	margin-bottom: 9px;
 }
 .private {
 }
-.ofert {
+.offerta {
+}
+.footer__bottom-nav {
+	display: flex;
+	flex-direction: column;
+	height: 102px;
+	margin-top: -30px;
+}
+.footer__bottom-nav-items {
+}
+.footer__bottom-nav-item {
+	margin-bottom: 10px;
+}
+.footer__bottom-nav-link {
 }
 .social {
+	margin-left: 370px;
+	margin-top: -10px;
 }
 .social-items {
 }
 .social-item {
 	display: flex;
-	gap: 0 12px;
-	margin-bottom: 31px;
+	gap: 12px;
 }
 .social-link {
+	margin-bottom: 31px;
 }
 .social-icon {
-}
-.focial-icon {
 }
 .visa {
 	text-align: right;
