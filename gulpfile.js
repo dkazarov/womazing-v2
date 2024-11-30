@@ -84,7 +84,7 @@ function styles() {
 	return (
 		gulp
 			.src(paths.styles.src)
-			.pipe(sourcemaps.init())
+			// .pipe(sourcemaps.init())
 			.pipe(concat('style.min.css'))
 			//.pipe(less())
 			//.pipe(stylus())
@@ -99,7 +99,7 @@ function styles() {
 					level: 2,
 				}),
 			)
-			.pipe(sourcemaps.write('.'))
+			// .pipe(sourcemaps.write('.'))
 			.pipe(
 				size({
 					showFiles: true,
