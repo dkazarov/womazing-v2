@@ -68,7 +68,7 @@ function html() {
 				}),
 			)
 			.pipe(webpHTML())
-			.pipe(htmlmin({ collapseWhitespace: true }))
+			// .pipe(htmlmin({ collapseWhitespace: true }))
 			.pipe(
 				size({
 					showFiles: true,

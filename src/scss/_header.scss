@@ -53,6 +53,8 @@
 	z-index: 3;
 }
 .action__phone {
+	display: flex;
+	justify-content: space-between;
 	position: relative;
 	font-size: 15px;
 	letter-spacing: 0.021em;
@@ -60,30 +62,29 @@
 	&:hover {
 		color: $action-color;
 		transition: all 0.2s ease-in-out;
-	}
-
-	&::before {
-		content: '';
-		position: absolute;
-		top: 0;
-		left: -35px;
-		width: 27px;
-		height: 27px;
-		background-image: url(../assets/phone.svg);
-		transition: all 0.2s ease-in-out;
-	}
-
-	&:hover::before {
-		content: '';
-		position: absolute;
-		top: 0;
-		left: -35px;
-		width: 27px;
-		height: 27px;
-		background-image: url(../assets/active-phone.svg);
-		transition: all 0.2s ease-in-out;
+		opacity: 1;
 	}
 }
+
+.action__phone-icon,
+.action__phone-icon--active {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: -35px;
+		width: 27px;
+		height: 27px;
+		transition: all 0.2s ease-in-out;
+}
+
+.action__phone-icon--active {
+		opacity: 0;
+
+		&:hover {
+			opacity: 1;
+		}
+}
+
 .cart {
 	position: relative;
 	padding-left: 65px;
@@ -92,7 +93,7 @@
 	z-index: 1;
 
 	&:hover {
-		transform: scale(1.025);
+		transform: translateY(-2px);
 		transition: all 0.2s ease-in-out;
 	}
 }
