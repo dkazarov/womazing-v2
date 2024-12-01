@@ -29,7 +29,7 @@
 	text-align: right;
 	max-width: 385px;
 	line-height: 140%;
-	margin-bottom: 74px
+	margin-bottom: 74px;
 }
 
 .hero__btn {
@@ -37,18 +37,22 @@
 	margin-right: 185px;
 	transition: all 0.2s ease-in-out;
 }
-
 .hero__btn--arrow {
 	position: absolute;
-	top: -24px;
-	left: 75px;
-	width: 68px;
-	height: 68px;
+	top: -22px;
+	left: 76px;
+	width: 67px;
+	height: 67px;
 	background-color: rgba(110, 156, 159, 0.1);
-	background-image: url(../assets/hero-btn-arrow.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	z-index: 1;
+}
+
+.hero__btn--arrow-img {
+	position: absolute !important;
+	top: 20px;
+	left: 25px;
+	width: 14px;
+	height: 28px;
+	z-index: 1000 !important;
 }
 
 // Right slider
