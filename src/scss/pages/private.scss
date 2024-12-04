@@ -1,0 +1,9 @@
+.private {
+	padding-top: 134px;
+}
+
+@media (width < 767px) {
+.private {
+	padding-top: 70px;
+}
+}
