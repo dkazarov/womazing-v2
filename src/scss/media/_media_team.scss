@@ -21,17 +21,18 @@
 		padding-top: 5%;
 		max-width: 100%;
 	}
-	.team__content span {
-		display: inline-block;
-		margin-bottom: 25px;
+	.team__content p span {
+		display: block;
+		text-align: center;
+	}
+	.team__content p + p {
+		display: block;
+		text-align: center;
 	}
 	.team__content-title.title--middle {
 		font-size: 40px;
 		width: 100%;
 		text-align: center;
-	}
-	.team__content p {
-		margin-bottom: 25px;
 	}
 	.team__link-about-page {
 		text-align: center;

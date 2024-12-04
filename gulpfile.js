@@ -27,7 +27,7 @@ const webpHTML = require('gulp-webp-html');
 // Пути исходных файлов src и пути к результирующим файлам dest
 const paths = {
 	html: {
-		src: ['src/*.html', 'src/*.pug'],
+		src: ['src/*.html', 'src/*.pug', 'src/pages/*.html'],
 		dest: 'dist/',
 	},
 	styles: {
