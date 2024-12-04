@@ -1,9 +1,27 @@
 .private {
-	padding-top: 134px;
+	padding-top: 150px;
+}
+
+.private__inner h2 {
+	font-size: 40px;
+	margin-bottom: 70px;
+	text-align: center;
+}
+
+.private__inner h3 {
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+.private__inner p {
+	margin-bottom: 25px;
 }
 
 @media (width < 767px) {
-.private {
-	padding-top: 70px;
-}
+	.private {
+		padding-top: 100px;
+		text-align: center;
+	}
+	.private__inner h2 {
+		line-height: 110%;
+	}
 }
